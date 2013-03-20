@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'Divine/version'
+require 'divine/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "Divine"
-  gem.version       = Divine::VERSION
+  gem.name          = "divine"
+  gem.version       = divine::VERSION
   gem.authors       = ["Kyle Decot"]
-  gem.email         = ["kyle.decot@me.com"]
+  gem.email         = ["kyle.decot@icloud.com"]
   gem.description   = %q{TODO: Write a gem description}
   gem.summary       = %q{TODO: Write a gem summary}
   gem.homepage      = ""

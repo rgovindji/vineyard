@@ -1,12 +1,12 @@
-# Divine
+# divine
 
-TODO: Write a gem description
+Rubygem for interacting w/ Vine's unofficial API. Inspired and based off of Vino - https://github.com/tlack/vino
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'Divine'
+    gem 'divine'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install Divine
+    $ gem install divine
 
 ## Usage
 

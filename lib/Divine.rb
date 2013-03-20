@@ -1,5 +1,5 @@
-require "Divine/version"
+require "divine/version"
 
-module Divine
+module divine
   # Your code goes here...
 end
