@@ -1,5 +1,5 @@
 require "divine/version"
 
-module divine
+module Divine
   # Your code goes here...
 end

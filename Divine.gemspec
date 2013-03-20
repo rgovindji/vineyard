@@ -5,7 +5,7 @@ require 'divine/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "divine"
-  gem.version       = divine::VERSION
+  gem.version       = Divine::VERSION
   gem.authors       = ["Kyle Decot"]
   gem.email         = ["kyle.decot@icloud.com"]
   gem.description   = %q{TODO: Write a gem description}
