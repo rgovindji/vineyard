@@ -1,6 +1,7 @@
 require 'vineyard/version'
-require 'httparty'
+require 'faraday'
 require 'vineyard/configurable'
+require 'vineyard/client'
 
 module Vineyard
   include Vineyard::Configurable

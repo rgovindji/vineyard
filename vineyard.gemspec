@@ -8,14 +8,12 @@ Gem::Specification.new do |gem|
   gem.version       = Vineyard::VERSION
   gem.authors       = ["Kyle Decot"]
   gem.email         = ["kyle.decot@icloud.com"]
-  gem.description   = %q{Rubygem for interacting w/ Vine's API}
-  gem.summary       = %q{Rubygem for interacting w/ Vine's API}
-  gem.homepage      = ""
-
+  gem.description   = %q{A Ruby interface to Vine's unofficial API}
+  gem.summary       = gem.description
+  gem.homepage      = "https://github.com/kyledecot/vineyard"
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
-
-  gem.add_dependency "httparty"
+  gem.add_dependency "faraday"
 end
