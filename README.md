@@ -2,6 +2,8 @@
 
 Rubygem for interacting w/ Vine's unofficial API. Inspired and based off of Vino - https://github.com/tlack/vino
 
+[![Build Status](https://travis-ci.org/kyledecot/divine.png?branch=master)](https://travis-ci.org/kyledecot/divine)
+
 ## Installation
 
 Add this line to your application's Gemfile:
