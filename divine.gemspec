@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Divine::VERSION
   gem.authors       = ["Kyle Decot"]
   gem.email         = ["kyle.decot@icloud.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Rubygem for interacting w/ Vine's API}
+  gem.summary       = %q{Rubygem for interacting w/ Vine's API}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
