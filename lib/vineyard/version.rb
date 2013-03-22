@@ -1,3 +1,3 @@
-module Divine
+module Vineyard
   VERSION = "0.0.1"
 end

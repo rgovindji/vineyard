@@ -1,2 +1,2 @@
-require 'divine'
+require 'vineyard'
 require 'rspec'

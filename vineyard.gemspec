@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'divine/version'
+require 'vineyard/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "divine"
-  gem.version       = Divine::VERSION
+  gem.name          = "vineyard"
+  gem.version       = Vineyard::VERSION
   gem.authors       = ["Kyle Decot"]
   gem.email         = ["kyle.decot@icloud.com"]
   gem.description   = %q{Rubygem for interacting w/ Vine's API}

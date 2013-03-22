@@ -1,5 +1,5 @@
 require 'helper'
 
-describe Divine do
+describe Vineyard do
 
 end

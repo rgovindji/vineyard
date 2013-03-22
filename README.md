@@ -1,14 +1,14 @@
-# divine
+# vineyard
 
 Rubygem for interacting w/ Vine's unofficial API. Inspired and based off of Vino - https://github.com/tlack/vino
 
-[![Build Status](https://travis-ci.org/kyledecot/divine.png?branch=master)](https://travis-ci.org/kyledecot/divine)
+[![Build Status](https://travis-ci.org/kyledecot/vineyard.png?branch=master)](https://travis-ci.org/kyledecot/vineyard)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'divine'
+    gem 'vineyard'
 
 And then execute:
 
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install divine
+    $ gem install vineyard
 
 ## Usage
 

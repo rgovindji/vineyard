@@ -1,4 +1,4 @@
-module Divine
+module Vineyard
   module Configurable
     def configure
       puts 'Configure!'
@@ -9,8 +9,8 @@ module Divine
       #       'password' => password
       #     },
       #     :headers => {
-      #       'Device-Token' => 'Divine',
-      #       'User-Agent' => 'com.vine.iphone/1.01 (unknown, iPhone OS 6.0, iPad, Scale/2.000000) (Divine.js/0.0.1)'
+      #       'Device-Token' => 'Vineyard',
+      #       'User-Agent' => 'com.vine.iphone/1.01 (unknown, iPhone OS 6.0, iPad, Scale/2.000000) (Vineyard.js/0.0.1)'
       #     }
       #   }
       #   # puts options
