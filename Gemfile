@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in divine.gemspec
+gem 'rake'
+group :test do
+  gem 'rspec'
+end
+
 gemspec

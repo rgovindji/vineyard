@@ -1,0 +1,2 @@
+require 'divine'
+require 'rspec'
