@@ -1,7 +1,12 @@
 require 'faraday'
+require 'forwardable'
 
 module Vineyard
   class Client
+    extend Forwardable
+
+  	    def_delegator :options, :hash
+
     # Initializes a new Client object
     #
     # @param options [Hash]
@@ -38,6 +43,14 @@ module Vineyard
           Faraday.new('https://api.vineapp.com/', {})
       end
     end
+
+    def reset!
+      Vineyard::Configurable.keys.each do |key|
+        instance_variable_set(:"@#{key}", Vineyard::Default.options[key])
+      end
+      self
+    end
+    alias setup reset!
 
     private
 
