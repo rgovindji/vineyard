@@ -1,4 +1,5 @@
 require 'vineyard/version'
+require 'vineyard/default'
 require 'vineyard/configurable'
 require 'vineyard/client'
 
@@ -32,4 +33,4 @@ module Vineyard
   end
 end
 
-# Vineyard.setup
+Vineyard.setup

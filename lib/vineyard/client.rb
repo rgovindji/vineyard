@@ -1,11 +1,11 @@
 require 'faraday'
 require 'forwardable'
+require 'vineyard/api/authenticate'
 
 module Vineyard
   class Client
-    extend Forwardable
 
-  	    def_delegator :options, :hash
+    include Vineyard::API::Authenticate
 
     # Initializes a new Client object
     #
