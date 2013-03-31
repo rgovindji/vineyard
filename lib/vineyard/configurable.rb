@@ -1,7 +1,22 @@
 module Vineyard
   module Configurable
+
+    attr_writer :username, :password
+
+    class << self
+
+      def keys
+        @keys ||= [
+          :username,
+          :password
+        ]
+      end
+    end
+
     def configure
       puts 'Configure!'
+      yield self
+      self
       # def self.authenticate(username = '', password = '')
       #   options = {
       #     :query => {
